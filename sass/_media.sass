@@ -1,0 +1,257 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        h1
+            font-size: 45px
+        h2
+            font-size: 30px
+    .mobil
+        &_item
+            width: auto
+    footer
+        .link_main
+            .link_item
+                margin: 0 5px
+        .link_item
+            margin: 0 5px
+        
+@media (max-width: 991px)
+    .menu
+        padding-left: 0px
+        .menu_item
+            padding-right: 5px            
+    .promo
+        h1
+            font-size: 35px
+        h2
+            font-size: 20px
+    .reason_item
+        flex-direction: column        
+        height: 350px  
+        justify-content: start
+        margin-top: 0
+        p
+            padding-top: 5px
+    .auto
+        img
+            position: absolute
+            left: 0px
+    .needs_item
+        line-height: 25px
+    footer
+        .app_link, .social_link            
+            top: 105px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        top: 0
+        left: -100%
+        flex-direction: column
+        width: 50%
+        height: 100vh
+        transition: 0.6s all
+        background-color: rgba(0, 0, 0, .8)
+        justify-content: center
+        text-align: center
+        &_item
+            padding-top: 25px      
+            
+        &_active
+            left: 0
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block            
+            height: 2px
+            width: 100%
+            background-color: $var2
+            margin-bottom: 2px
+            transition: 0.5s all
+            
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hiden
+        display: none
+    .xs-visible
+        display: block
+    .subheader_btn        
+        display: block
+        margin: 0 0 0 auto
+    .promo
+        h1
+            font-size: 30px
+        h2
+            font-size: 15px
+    .reason_item
+        height: auto
+
+@media (max-width: 575px)
+    .subheader_logo_text
+        display: none          
+    .change_white
+        display: none
+    .container 
+	    width: auto
+    .label
+        width: 115px
+        height: 27px
+        font-weight: 400
+        font-size: 11px
+    .subheader
+        height: 60px
+        &_link
+            margin-top: 22px
+        &_btn
+            width: 110px
+            height: 22px
+            font-weight: 400
+            font-size: 10px
+            line-height: 22px
+            margin: 7px auto
+        &_tel
+            font-weight: 400
+            font-size: 12px            
+            align-items: center
+            text-align: center
+            text-transform: uppercase
+            margin-top: 5px
+    .promo
+        min-height: 400px
+        padding-bottom: 45px
+        h1
+            font-weight: 900
+            font-size: 30px
+            line-height: 35px
+        h2
+            font-size: 20px
+            line-height: 23px
+        &_btn
+            width: 210px
+            height: 50px
+            font-size: 16px
+            margin: 25px auto 0 auto
+            line-height: none
+        &_text
+            display: none
+    .title
+            font-weight: 700
+            font-size: 16px
+            margin-top: 12px
+    .subtitle
+        font-weight: 400
+        font-size: 14px
+        line-height: 21px
+    .reason
+        padding: 22px 0 36px 0
+        margin-top: 0
+        
+        &_item
+            span
+                font-weight: 400
+                font-size: 16px
+                line-height: 21px
+            p
+                font-weight: 300
+                font-size: 15px
+                line-height: 21px
+                padding-left: 15px
+    .change_black
+        .img_big
+            display: none
+        .img_smoll
+            display: block
+            margin: 0 auto
+            margin-top: 30px
+        .title, .subtitle
+            display: none
+        .text_smoll
+            display: block
+            font-weight: 300
+            font-size: 17px
+            line-height: 24px
+            align-items: center
+            text-align: center
+            color: #FFFFFF
+            margin-top: 260px
+
+    .world
+        .container
+            background: url(../img/world_bg1.png) center center/cover no-repeat
+            height: 360px
+        &_content
+            padding-top: 30px
+        .label
+            width: 75px
+            height: 22px
+        &_link
+            padding-top: 180px
+    footer
+        .container
+            padding: 0
+        .line
+            width: 255px
+            height: 6px
+            .link_main
+                .link_item
+                    font-size: 14px
+    
+        .link_item
+            margin: 0 28px
+        .social_link              
+            &_1                
+                top: 190px
+                left: 50%
+                transition: translateX (-50%)
+            &_2                
+                top: 190px
+                left: 120px
+            &_3                
+                top: 190px
+                left: 165px
+            &_4                
+                top: 190px
+                left: 210px
+        .app_link
+            
+            top: 240px
+            right: 11px
+            
+
+
+        
+
+
+
+
+    
+
+
+                    
+                    
+        
+
+    
+
+
+
+
+
+        
+        
